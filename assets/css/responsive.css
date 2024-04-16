@@ -88,6 +88,10 @@
   .fleft__container {
     padding-right: 8rem;
   }
+  /* .menu-mobile {
+    visibility: hidden;
+    opacity: 0;
+  } */
 }
 
 @media (max-width: 1000px) {

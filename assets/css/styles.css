@@ -1211,11 +1211,10 @@ body {
 }
 
 .menu-mobile {
-  display: none;
   visibility: visible;
   opacity: 1;
   position: fixed;
-  left: 0;
+  left: -300px;
   top: 0;
   z-index: 10;
   width: 30rem;
@@ -1225,8 +1224,14 @@ body {
   padding-top: 0rem;
   box-shadow: 0px 0px 85px -35px rgba(0, 0, 0, 0.5);
   overflow-y: auto;
-  transition: all 800ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
+.menu-mobile--show {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+
 .menu-mobile__header {
   display: flex;
   align-items: center;
